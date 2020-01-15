@@ -45,5 +45,9 @@ def naming_system
   life[:sub_category][:sub_category] = PORTION_2
   life[:sub_category][:sub_category] = {:sub_category}
   life[:sub_category][:sub_category][:sub_category] = PORTION_3
+  life[:sub_category][:sub_category][:sub_category] = {:sub_category}
+  life[:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_4
+  
+  life
   
 end

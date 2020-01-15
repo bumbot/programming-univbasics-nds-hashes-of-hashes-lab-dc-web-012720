@@ -64,5 +64,6 @@ def naming_system
     }
   }
   
+  life
   
 end

@@ -42,7 +42,7 @@ def naming_system
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
   life = PORTION_1
-  p life[:sub_category][:sub_category]
+  p life[:sub_category][:sub_category] = {sub_category: PORTION_2}
   
   p life
   
